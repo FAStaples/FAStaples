@@ -1,0 +1,5 @@
+ I am a Postdoctoral Scholar in the Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles. Prior to this I completed my Ph.D. at the Mullard Space Science Laboratory, UCL. My
+          field of expertise is "space weather"; the plasma conditions in
+          near-Earth space which are modulated by the solar wind. My research
+          focuses on the dynamics of the Van Allen radiation belts, and how
+          varying radiation levels effects satellite equipment.
