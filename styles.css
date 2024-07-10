@@ -78,7 +78,14 @@ header h1 {
 
 h3 { 
     font-weight: bold;
-    font-size: smaller;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+h4 { 
+    font-weight: lighter;
+    font-size: large;
     margin-top: 20px;
     margin-bottom: 0;
 }
@@ -129,5 +136,85 @@ a[href*='/Downloads']{
 }
 
 .icons a:hover {
-    color: #1565c0;
+    color: #47419d;
+}
+
+/*change the background color of a section
+.education{
+    margin: 0;
+    padding: 20px;
+    background-color: #444262;
+    color:#fff
+}
+*/
+
+.timeline{
+    margin : auto 0 auto 0;
+    max-width: 80%;
+    padding: 35px;
+    display: grid;
+    /*fr is fraction, so here left column is 1/4 of page*/
+    grid-template-columns: 1fr 2px 3.5fr; 
+    font-family: "Inclusive Sans", sans-serif;
+}
+
+/*actual timeline box*/
+.timeline__component {
+    margin: 0 20px 20px 20px;
+}
+
+/*change the box background*/
+.timeline__component--bg{
+    padding: 1.5em;
+    background: #e4e1eb;
+    box-shadow: 0 0 5px rgba(90, 81, 103, 0.569);
+    border-radius: 10px;
+}
+
+/*remove margin at bottom of timeline*/
+.timeline__component--bottom{
+    margin-bottom: 0;
+}    
+
+/*set right justification for left column*/
+.timeline__date--right{
+    text-align: right;
+}
+
+/*middle bar*/
+.timeline__middle{
+    position: relative;
+    background: #000000;
+}
+
+.timeline__point{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height:15px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.timeline__point--bottom{
+    top: intital;
+    bottom: 0;
+}
+
+/*redfine text used in timeline*/
+.timeline__title{
+    margin:0;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+.timeline__subtitle {
+    font-weight: 300;
+    margin-top: 16px;
+    font-size: 1em;
+}
+.timeline__paragraph{
+    line-height: 1.5;
+    font-size:0.8em;
 }
